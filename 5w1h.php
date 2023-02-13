@@ -17,7 +17,7 @@
       echo "[".$who_php."] が、[".$why_php."] という理由で、[".$where_php."]にて、[".$when_date_php." ".$when_time_php."]ごろ、[".$how_php."] という手段を用いて[".$what_php."]した。";
 
 
-      file_put_contents("sample.txt", $who_php.",".$what_php.",".$why_php.",".$where_php.",".$when_date_php.",".$when_time_php.",".$how_php."\n",  FILE_APPEND);
+      file_put_contents("sample.csv", $who_php.",".$what_php.",".$why_php.",".$where_php.",".$when_date_php.",".$when_time_php.",".$how_php."\n",  FILE_APPEND);
 
      ?>
 
